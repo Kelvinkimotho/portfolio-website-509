@@ -8,8 +8,6 @@ This project showcases a personal portfolio site, featuring a smooth and profess
 The website is fully responsive and includes multiple pages to highlight skills, biography, achievements, and professional work.
 
 ---
-
-
 ## 📚 Features
 
 - **Navigation Bar**  
@@ -43,7 +41,6 @@ The website is fully responsive and includes multiple pages to highlight skills,
   Works seamlessly on desktops, tablets, and mobile devices.
 
 ---
-
 ## 🔨 Technologies Used
 
 - **HTML5** - Structure of the website.
@@ -52,7 +49,6 @@ The website is fully responsive and includes multiple pages to highlight skills,
 - **Git & GitHub** - Version control and collaboration.
 
 ---
-
 ## 🚀 Collaboration Workflow
 
 To ensure a smooth collaboration, we followed this workflow:
