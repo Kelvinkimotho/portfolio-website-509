@@ -81,21 +81,11 @@ To ensure a smooth collaboration, we followed this workflow:
 
 ## 🖼 Final Product Showcase
 
-Here are some previews of our final portfolio website:
-
-> **Home Page Preview**  
-> ![Home Page Screenshot](path/to/homepage-screenshot.png)
-
-> **About Me Section**  
-> ![About Page Screenshot](path/to/aboutme-screenshot.png)
-
-> **My Skills Section**  
-> ![Skills Page Screenshot](path/to/skills-screenshot.png)
-
-> **Portfolio Showcase**  
-> ![Portfolio Page Screenshot](path/to/portfolio-screenshot.png)
+Here are some previews of our final portfolio website:  
+The site is live at 👉 [portfolio-project-509](https://portifolio-project-509.netlify.app/)
 
 ---
+
 
 ## 📋 Submission Instructions
 - Submit the **GitHub Repository Link** through the provided Google Form.
