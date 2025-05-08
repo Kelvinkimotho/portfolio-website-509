@@ -1,61 +1,158 @@
 /* === Global Styles === */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f8f9fa;
     color: #333;
     scroll-behavior: smooth;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
-  }
-  
-  /* === Hero Section === */
-  .hero-section {
+}
+
+/* === Hero Section === */
+.hero-section {
     height: 100vh;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     background-size: cover;
     background-position: center;
     color: white;
     padding: 80px 0;
-  }
-  
-  /* === About Section Preview === */
-  #about-preview h2 {
+}
+
+/* navbar style*/
+#navbarNav li a{
+    border: none;
+    margin-right: 5px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    padding: 4px 12px;
+}
+#navbarNav a:hover, .active{
+    color: #fff;
+    border-radius: 20px;
+    background: rgb(40, 68, 146);
+}
+
+/*success section*/
+.success {
+    margin: 5% 5%;
+    background: rgb(248, 248, 248);
+    width: 90%;
+    height: 75%;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 25px;
+}
+/*My timely success*/
+.container .timely {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 12%;
+    margin-top: -5%;
+}
+
+.container .timely .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .timely .time p{
+    margin-left: -10%;
+}
+/* === About Section Preview === */
+.about {
+    margin: 5% 5%;
+    background: rgb(248, 248, 248);
+    width: 90%;
+    height: 75%;
+    border: 1px solid rgb(248, 248, 248) ;
+    border-radius: 25px;
+}
+#about-preview h2 {
     font-size: 2.2rem;
     font-weight: bold;
-  }
-  
-  #about-preview p {
+}
+
+#about-preview p {
     font-size: 1.1rem;
-  }
-  
-  /* === Footer === */
-  footer {
+}
+
+/*My success images*/
+.images img{
+    width: 28%;
+    height: 20%;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 2px 2%;
+}
+
+/* === Footer === */
+footer {
     background-color: #222;
-  }
-  
-  footer a {
+    margin-top: 0;
+    max-height: 75%;
+    width: 100%;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container p{
+    padding-right: 80px;
+    padding-top: 8px;
+}
+
+footer .container i {
     color: #fff;
+    padding: 2px 6px;
+    border: 1px solid #40484b;
+    border-radius: 50%;
+    background: #40484b;
     transition: color 0.3s;
-  }
-  
-  footer a:hover {
+}
+
+footer .container i:hover {
     color: #0d6efd;
-  }
-  
-  /* Animate on Scroll Support */
+}
+/*footer updates*/
+footer .above-footer-text {
+    background: darkcyan;
+    margin-bottom: 15px;
+    padding: 35px 0px;
+    margin-left: 12px;
+    /* height: 75px; */
+}
+footer .above-footer-text a {
+    margin-left: 6px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 5ms ease-in-out;
+}
+footer .above-footer-text a:hover {
+    color: goldenrod;
+}
+footer .above-footer-text i {
+    margin-left: 4px;
+}
+/* Animate on Scroll Support */
 .animate {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.6s ease-out;
-  }
-  
-  .animate.fade-in {
+}
+
+.animate.fade-in {
     opacity: 1;
     transform: translateY(0);
-  }
+}
 
 .btn-primary {
     background-color: #4dabf7;
@@ -76,9 +173,9 @@ body {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .section-title {
-        font-size: 2rem;
+        font-size: 1rem;
     }
-    
+
     .service-card {
         padding: 20px;
     }
